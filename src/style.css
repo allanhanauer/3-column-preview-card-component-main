@@ -28,6 +28,7 @@ main {
   height: 500px;
   color: var(--Transparent-white-paragraphs);
   line-height: 1.6;
+  border-radius: 20px;
 }
 main h1 {
   color: var(--Transparent-white-paragraphs);
@@ -65,6 +66,8 @@ main .car1 {
   box-sizing: border-box;
   padding: 50px;
   background-color: var(--Bright-orange);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 main .car1 button {
   margin-top: 70px;
@@ -97,6 +100,8 @@ main .car3 {
   box-sizing: border-box;
   padding: 50px;
   background-color: var(--Very-dark-cyan);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 main .car3 button {
   margin-top: 70px;
