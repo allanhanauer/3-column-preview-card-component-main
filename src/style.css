@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root {
+  --font-primary: "Lexend Deca";
+  --font-secund: "Big Shoulders Display";
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Very-light-gray-background-headings-buttons);
+}
+main {
+  display: flex;
+  width: 920px;
+  height: 500px;
+  color: var(--Transparent-white-paragraphs);
+  line-height: 1.6;
+}
+main h1 {
+  color: var(--Transparent-white-paragraphs);
+  font-family: var(--font-secund);
+  font-size: 43px;
+}
+main p {
+  font-size: 15px;
+}
+main button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+}
+main .car1 button:hover {
+  background-color: var(--Bright-orange);
+  border: 1px solid var(--Transparent-white-paragraphs);
+  color: var(--Transparent-white-paragraphs);
+}
+main .car2 button:hover {
+  background-color: var(--Dark-cyan);
+  border: 1px solid var(--Transparent-white-paragraphs);
+  color: var(--Transparent-white-paragraphs);
+}
+main .car3 button:hover {
+  background-color: var(--Very-dark-cyan);
+  border: 1px solid var(--Transparent-white-paragraphs);
+  color: var(--Transparent-white-paragraphs);
+}
+main .car1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: var(--Bright-orange);
+}
+main .car1 button {
+  margin-top: 70px;
+  border: none;
+  color: var(--Bright-orange);
+  font-size: 15px;
+}
+
+main .car2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: var(--Dark-cyan);
+}
+main .car2 button {
+  margin-top: 70px;
+  border: none;
+  color: var(--Dark-cyan);
+  font-size: 15px;
+}
+
+main .car3 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: var(--Very-dark-cyan);
+}
+main .car3 button {
+  margin-top: 70px;
+  border: none;
+  color: var(--Very-dark-cyan);
+  font-size: 15px;
+}
+
+/* #region */
+.attribution {
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* #endregion */
